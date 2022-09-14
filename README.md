@@ -52,8 +52,8 @@ namespace Hello
            Console.WriteLine("Receives {0} of salary",income);}
        public static void Main(String[] args)
        {
-           Employ emp1 = new Employ("Hari", "Tester", 10, 30000, 1000);
-           Employ emp2 = new Employ("Latha", "Developer", 5, 25000, 1000);
+           Employ emp1 = new Employ("viki", "gdm", 10, 30000, 1000);
+           Employ emp2 = new Employ("loki", "Developer", 5, 25000, 1000);
            emp1.salary();
            emp2.salary();
            emp1.display();
